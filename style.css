@@ -17,12 +17,12 @@ html, body {
     align-items: center;
     background: url(./background-new.png) no-repeat;
     background-size: cover;
-
     background-position: center;
 }
 
 .container {
-    background-color: #222;
+    background-color: rgb(59, 53, 53);
+    opacity: 0.8;
     color: #fff;
     padding: 2rem;
     transform: translateX(-90%);
@@ -59,7 +59,7 @@ html, body {
     font-family: 'Mulish', sans-serif;
 }
 .form-control input[type="submit"]:hover {
-    background-color: rgb(197, 106, 106);
+    background-color: orange;
 }
 
 .form-control input~label,
@@ -76,9 +76,17 @@ html, body {
 .form-control input:valid~label,
 .form-control textarea:valid~label {
     top: -2rem;
-    color: red;
+    color: orange;
     font-size: 1rem;
 }
 .form-control:last-child {
     margin: 0;
+}
+
+@media (max-width:1028px){
+    .container {
+        opacity: 0.9;
+        transform: translateX(0);
+    }
+
 }
