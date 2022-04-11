@@ -50,7 +50,7 @@ html, body {
 }
 
 .form-control input[type="submit"] {
-    background-color: aqua;
+    background-color: rgb(52, 138, 138);
     border: 0;
     cursor: pointer;
     text-transform: uppercase;
